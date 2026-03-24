@@ -16,7 +16,7 @@ export function Login({ onLogin }: { onLogin: () => void }) {
     
     // Simpan password ke penyimpanan browser
     localStorage.setItem("neko-secret", secret);
-    onLogin(); // Pindah ke halaman utama
+    onLogin(); 
     toast.success("Mencoba masuk...");
   };
 
